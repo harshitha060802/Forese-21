@@ -1,0 +1,166 @@
+body {
+    display:flex;
+    background-image: url('bodybg1.jpeg');
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-position: center fixed;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+
+nav {
+    display:flex;
+    margin-top:30px;
+    justify-content:space-between;
+}
+
+.left-side {
+    display: flex;
+    position:fixed;
+}
+
+.left-side img {
+    height:30px;
+    width:100px;
+    padding:5px;
+}
+
+.right-side {
+    position:fixed;
+    margin-left:680px;
+}
+
+.right-side a {
+    padding:30px;  
+    text-decoration:none;
+    color:white; 
+    font-family:sans-serif;
+    font-size:17px;
+}
+
+.right-side a:hover {
+    color:rgb(199, 217, 255);
+}
+
+.right-side a.active {
+    border-bottom: 3px solid rgb(174, 197, 248);
+    color:rgb(174, 197, 248);
+}
+
+.wrapper {
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    display: inline-block;
+    margin-left:400px;
+    margin-top:120px;
+    color:rgb(255, 255, 255);
+}
+
+.typing_text {
+    display: inline-block;
+  	overflow: hidden;
+  	letter-spacing: 2px;
+ 	animation: typing 5s steps(30, end), blink .75s step-end infinite;
+    white-space: nowrap;
+    font-size: 30px;
+    font-weight: 700;
+    border-right: 4px solid;
+    box-sizing: border-box;
+}
+
+@keyframes typing {
+    from {width: 0}
+    to {width: 100%}
+    
+}
+
+@keyframes blink {
+    from, to { border-color: transparent }
+    50% { border-color: white;}
+}
+
+.short_abt {
+    color:white;
+    border:2px solid white;
+    border-radius:35px;
+    margin-left:170px;
+    margin-right:150px;
+    margin-top:50px;
+    width:900px;
+    height:260px;
+    display:inline-block;
+    background-color:rgba(46, 46, 46, 0.192);
+}
+
+.short_abt p {
+    margin-left:90px;
+    margin-right:80px;
+    font-size:20px;
+}
+
+.short_abt img {
+    width:150px;
+    margin-top:25px;
+    margin-left:350px;
+}
+
+.button {
+    background-color:white;
+    border: none;
+    border-radius:20px;
+    color: rgb(10, 10, 10);
+    padding: 9px 22px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    margin-top:3px;
+    margin-left:380px;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color:rgb(227, 234, 255);
+    color:rgb(19, 19, 19);
+}
+
+#footer {
+    background: rgb(14, 13, 110);
+    display: block;
+    height:50px;
+    bottom:0;
+    position:fixed;
+    left:0;
+    width:100%;
+    margin-top:45px;
+}
+ 
+.left-footer {
+    display:flex;
+    float:left;
+    margin-left:20px;
+}
+ 
+.left-footer p{
+    color:white;
+    size:20px;
+}
+
+.right-footer {
+    display:inline;
+    float:right;
+    margin-top:10px;
+    margin-left:100px;
+}
+
+.fa-linkedin {
+    color:rgb(255, 255, 255);
+    margin-right:70px;
+}
+ 
+.fa-envelope {
+    color:rgb(255, 255, 255);
+    margin-right:90px;
+}
+
+
+
